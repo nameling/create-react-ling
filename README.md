@@ -6,5 +6,6 @@ A cli for react-starter
 npm i -g react-cli
 
 #### USAGE
-basic ``
+basic `
 react-cli <your project name hree>
+`
