@@ -1,5 +1,5 @@
 {
-  "name": "react-cli",
+  "name": "create-react-cli",
   "version": "1.0.0",
   "description": "a cli for react-starter",
   "main": "index.js",
