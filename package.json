@@ -1,0 +1,34 @@
+{
+  "name": "react-cli",
+  "version": "1.0.0",
+  "description": "a cli for react-starter",
+  "main": "index.js",
+  "bin": {
+    "react-cli": "bin/index.js"
+  },
+  "keywords": [
+    "react",
+    "react-cli"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nameling/react-cli.git"
+  },
+  "author": "xiaoling.wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nameling/react-cli/issues"
+  },
+  "homepage": "https://github.com/nameling/react-cli#readme",
+  "devDependencies": {
+    "commander": "^4.0.1"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "isomorphic-git": "^0.70.5",
+    "prettier": "^1.19.1"
+  }
+}
