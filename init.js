@@ -56,22 +56,6 @@ let showExtra = () => {
   console.log(`${chalk.cyan("npm run build")}`);
   console.log("   bundle your app for production");
   console.log("");
-  console.log(`${chalk.cyan("npm run dll")}`);
-  console.log("   bundle dll.js and manifest.json");
-  console.log("   NOTICE: if you need dll, you should edit USE_DLL as true in webpack/config/config.js");
-  console.log("");
-  console.log(`${chalk.cyan("npm run analysis")}`);
-  console.log("   bundle your app for production and show you detail info about bundled files");
-  console.log("");
-  console.log(`${chalk.cyan("npm run lint-js")}`);
-  console.log("   format your js,jsx,ts,tsx file by eslint");
-  console.log("");
-  console.log(`${chalk.cyan("npm run lint-css")}`);
-  console.log("   format your .css, .less file by stylelint");
-  console.log("");
-  console.log(symbols.success, chalk.green('Project initialized successfully'));
-  console.log(`${chalk.cyan("enjoy coding!")}`);
-  console.log("");
 };
 
 module.exports = {
