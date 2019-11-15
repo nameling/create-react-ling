@@ -1,6 +1,6 @@
 module.exports =  {
-    gitUrl: "https://github.com/nameling/react-starter-kit",
+    gitUrl: "https://github.com/nameling/react-starter-kit.git",
     branch: {
-        default: "react-starter-kit"
+        default: "master"
     },
 }

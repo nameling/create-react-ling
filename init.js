@@ -13,6 +13,7 @@ let init = (branch, name) => {
   const spinner = ora('正在初始化项目...');
   const { gitUrl } = config;
   if(!fs.existsSync(name)) {
+    console.log(branch, 88);
     console.log(`${chalk.red("Init project in:  ")}${chalk.green(name)}`);
     spinner.start();
     git.clone({
@@ -43,7 +44,7 @@ let showInfo = () => {
   console.log("Example:");
   console.log("");
   console.log(` ${chalk.bgBlue(" Basic: ")}`);
-  console.log(`     create-react-zlv ${chalk.green("<your_project_name_here>")}`);
+  console.log(`     create-react-ling ${chalk.green("<your_project_name_here>")}`);
   console.log("");
 }
 
