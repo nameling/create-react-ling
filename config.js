@@ -4,3 +4,4 @@ module.exports =  {
         default: "master"
     },
 }
+// 全局导出
