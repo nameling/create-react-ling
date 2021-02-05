@@ -9,7 +9,7 @@ npm i -g create-react-ling
 basic `
 create-react-ling <your project name hree>
 
-create-react-zlv --ts <your-project-name-here>
+create-react-ling --ts <your-project-name-here>
 
-create-react-zlv --mobx <your-project-name-here>
+create-react-ling --mobx <your-project-name-here>
 `
