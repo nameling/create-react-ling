@@ -8,6 +8,8 @@ npm i -g create-react-ling
 #### USAGE
 basic `
 create-react-ling <your project name hree>
+
 create-react-zlv --ts <your-project-name-here>
+
 create-react-zlv --mobx <your-project-name-here>
 `
